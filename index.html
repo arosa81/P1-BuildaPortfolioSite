@@ -15,7 +15,7 @@
     <header class="row">
       <div class="col-xs-2 col-sm-2 logo">
         <!-- Reusing the Udacity logo asset from past project -designed by www.udacity.com -->
-        <img src="./images/udacity_logo.svg" class="img-responsive" alt="logo image">
+        <img src="./images/udacity_logo.svg" class="img-responsive" alt="Udacity logo">
       </div>
       <div class="col-xs-8 col-sm-10 text-right text-uppercase header-text-section">
         <h1 class="header-name">Alex Rosa</h1>
@@ -36,8 +36,8 @@
       </ul>
     </nav>
 
-    <main>
-      <section class="container">
+    <main class="row">
+      <section class="main-section">
 
         <!-- <a href="http://www.freepik.com/free-photos-vectors/business">Business vector designed by Freepik</a> -->
         <div class="row banner-image">
@@ -45,12 +45,10 @@
         </div>
 
         <section class="row featured-work">
-          <div class="">
-            <div class="col-sm-12 featured-work-title">
-              <h2>Featured Work</h2>
-            </div>
+          <div class="col-sm-12 featured-work-title">
+            <h2>Featured Work</h2>
           </div>
-          <div class="featured-work-items">
+          <div class="row featured-work-items">
               <div class="col-sm-4 featured-work-item" id="appify">
                 <!-- <a href="http://www.freepik.com/free-vector/flat-vector-office-elements_715493.htm">Designed by Freepik</a> -->
                 <img src="./images/Work1.jpg" class="img-responsive" alt="Pencil image">
@@ -92,10 +90,10 @@
         drawer.classList.toggle('open');
         e.stopPropagation();
       });
+
       main.addEventListener('click', function() {
         drawer.classList.remove('open');
       });
-
     </script>
   </body>
 </html>

@@ -15,12 +15,11 @@ header {
 }
 
 .logo {
-  /*max-height: 150px;*/
   max-width: 150px;
   min-width: 120px;
 }
 
-/*Keeping the header text always to the right*/
+/* Keeping the header text always to the right */
 .header-text-section {
   float: right;
 }
@@ -33,12 +32,7 @@ header {
   font-weight: 300;
 }
 
-/*
- *
- * Top Level Navigation
- *
- */
-
+/* Top Level Navigation */
 .nav {
   width: 100%;
   margin-left: auto;
@@ -79,7 +73,6 @@ header {
 .nav {
   z-index: 10;
   background-color: #fff;
-  /*width: 300px;*/
   position: absolute;
   /* This trasform moves the drawer off canvas. */
   -webkit-transform: translate(-9999px, 0);
@@ -90,9 +83,8 @@ header {
 
 /*fixing format for navigation bar*/
 @media screen and (min-width: 768px) {
-
-
-  .header__menu svg {
+  .header__menu,
+  svg {
     /* This trasform moves the drawer off canvas. */
     -webkit-transform: translate(-9999px, 0);
     transform: translate(-9999px, 0);
@@ -101,7 +93,7 @@ header {
   }
 }
 
-/*fixing format for navigation bar*/
+/* fixing format for navigation bar */
 @media screen and (max-width: 767px) {
   .header-text-section {
     margin: 0 3em 0 0;
@@ -125,6 +117,7 @@ header {
     width: 100%;
     text-align: left;
   }
+
   .header__menu {
     display: inline-block;
     position: absolute;
@@ -138,27 +131,27 @@ header {
   .header-text-section{
     width: 60%;
   }
-  .header-name{
-    font-size: 2em;
 
+  .header-name {
+    font-size: 2em;
   }
+
   .header-role {
     font-size: 1.2em;
-
   }
 }
 
-/*fixing format for iphone 5 and navigation button*/
+/*fixing format for iphone 4 & 5 and navigation button*/
 @media screen and (max-width: 404px) {
-  .header-text-section{
-    width: 50%;
+  .header-text-section {
+    width: 49%;
   }
-  .header-name{
-    font-size: 1.5em;
 
+  .header-name {
+    font-size: 1.5em;
   }
+
   .header-role {
     font-size: 1em;
-
   }
 }
