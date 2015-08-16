@@ -1,17 +1,17 @@
 body {
   max-width: 900px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 a {
-  color: #BCBBBB;
+  color: #bcbbbb;
 }
 
 /* Header */
 header {
     border-style: solid;
     border-width: 0 0 0.2em 0;
-    border-color: #BCBBBB;
+    border-color: #bcbbbb;
 }
 
 .logo {
@@ -35,8 +35,7 @@ header {
 /* Top Level Navigation */
 .nav {
   width: 100%;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
 }
 
 .nav__list {
@@ -58,7 +57,7 @@ header {
 
 /* Feature Section */
 .featured-work-title {
-  color: #BCBBBB;
+  color: #bcbbbb;
 }
 
 .featured-work-item-content {
@@ -67,7 +66,7 @@ header {
 
 .header__menu svg {
   width: 32px;
-  fill: #E0E0E0;
+  fill: #e0e0e0;
 }
 
 .nav {
@@ -113,7 +112,7 @@ header {
 
   .nav__item {
     display: list-item;
-    border-bottom: 1px solid #E0E0E0;
+    border-bottom: 1px solid #e0e0e0;
     width: 100%;
     text-align: left;
   }

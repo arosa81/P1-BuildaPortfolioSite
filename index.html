@@ -6,9 +6,7 @@
     <title>Alex Rosa's Portfolio</title>
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/main.css">
-    <link href='http://fonts.googleapis.com/css?family=Roboto:100,300,400' rel='stylesheet' type='text/css'>
-    <script type="text/javascript" src="bootstrap/js/jquery-1.11.3.min.js"></script>
-    <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+    <link href='http://fonts.googleapis.com/css?family=Roboto:100,300,400' rel="stylesheet">
   </head>
   <body class="container">
 
@@ -78,22 +76,8 @@
       </section>
     </main>
 
-    <script>
-      /*
-       * Open the drawer when the menu ison is clicked.
-       */
-      var menu = document.querySelector('#menu');
-      var main = document.querySelector('main');
-      var drawer = document.querySelector('.nav');
-
-      menu.addEventListener('click', function(e) {
-        drawer.classList.toggle('open');
-        e.stopPropagation();
-      });
-
-      main.addEventListener('click', function() {
-        drawer.classList.remove('open');
-      });
-    </script>
+    <script type="text/javascript" src="bootstrap/js/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="/Users/alexjrosa/Documents/Atom Projects/Udacity/P1-BuildaPortfolioSite/js/drawer-Menu.js"></script>
   </body>
 </html>
