@@ -64,7 +64,7 @@ header {
   color: #747704;
 }
 
-.header__menu svg {
+svg {
   width: 32px;
   fill: #e0e0e0;
 }
@@ -105,7 +105,7 @@ header {
     padding: 1em;
   }
 
-  .nav.open {
+  .open {
     -webkit-transform: translate(0, 0);
     transform: translate(0, 0);
   }
